@@ -136,6 +136,8 @@ Trabaja en los cambios necesarios para la característica y realiza commits en l
 
         git commit -m "feat(app):creación de nuevo login"
     ```
+> Utiliza la nomenclaruta de nombrar commit's, utiliza nuestra guía
+[Como Nombrar un Commit de Manera Pro -> Link](https://github.com/DEVELOGY/guia_github#nombrar-commits)
 
 4. Finalizar la Rama de Característica:
 Una vez que hayas completado todos los cambios y estás listo para finalizar la rama de característica, utiliza el siguiente comando:
