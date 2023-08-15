@@ -114,7 +114,7 @@ Este código creará una rama como: `feature/login`
 
 ---
 
-### Em momento de Codificar 🤓
+### Es momento de Codificar 🤓
 > Sigue trabajando como normalmente lo harias, aquí es momento de implementar todo tu código
 
 ---
