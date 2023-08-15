@@ -2,7 +2,7 @@
 ## ¿Qué es Git?
 Git es un sistema de control de versiones más usado por los desarrolladores de software
 
-## ¿Qué es gitFlow?
+## ¿Qué es git-flow?
 Git Flow es un modelo, una estrategia y también un workflow muy utilizado por los equipos de desarrollo y programación. Este se destaca por ayudar en la organización de la versión de un código
 
 ## ¿Por qué usar git-flow en mis proyectos?
@@ -91,6 +91,7 @@ Pero en lugar de ramificarse de [master], las ramas `feature` utilizan la rama `
 
 6. **log**: Mostrar el registro que se desvía de la rama base.
     Ejemplo: Mostrar el historial de commits en la rama de características "login":
+
     ```console
     git flow log feature/login
     ```
@@ -100,17 +101,15 @@ Pero en lugar de ramificarse de [master], las ramas `feature` utilizan la rama `
 
 ### Crear una rama de función
 
-1. PASO 1: Crear una Rama de una nueva funcionalidad como "login"
-
 > las ramas feature suelen crearse a partir de la última rama `develop`
-> Ubica tu rama actual en develop, si no estas seguro en que
-rama te encuentras puedes usar `git branch`
+> Ubica tu rama actual en develop, si no estas seguro en que rama te encuentras puedes usar `git branch`
 
+1. PASO 1: Crear una Rama de una nueva funcionalidad como "login":
 
+    ```console
+        git flow feature start login
+    ```
 
-```bash
-git flow feature start login
-```
 Este código creará una rama como: `feature/login`
 
 ### Desarrolla tu código
@@ -119,21 +118,25 @@ Este código creará una rama como: `feature/login`
 2. PASO 2: Guardar los Cambios y Publicarlos en el repositorio.
 Antes de finalizar la rama de característica, asegúrate de que estás en la rama de característica que deseas finalizar. Puedes verificarlo con el siguiente comando:
 
-3.PASO 3. Realizar los Cambios y Commit:
+    ```console
+        git branch
+    ```
+
+3.PASO 3. Realizar los Cambios y Commit.
 Trabaja en los cambios necesarios para la característica y realiza commits en la rama de característica (feature). Por ejemplo:
 
-```console
-git add .
+    ```console
+        git add .
 
-git commit -m "feat(app):creación de nuevo login"
-```
+        git commit -m "feat(app):creación de nuevo login"
+    ```
 
 4. Finalizar la Rama de Característica:
 Una vez que hayas completado todos los cambios y estás listo para finalizar la rama de característica, utiliza el siguiente comando:
 
-```console
-git flow feature finish feature/login
-```
+    ```console
+    git flow feature finish feature/login
+    ```
 
 > Esto fusionará tus cambios en la rama develop, eliminará la rama de característica (feature/login) y te llevará de vuelta a la rama develop.
 
