@@ -122,7 +122,7 @@ Antes de finalizar la rama de característica, asegúrate de que estás en la ra
         git branch
     ```
 
-3.PASO 3. Realizar los Cambios y Commit.
+3. PASO 3. Realizar los Cambios y Commit.
 Trabaja en los cambios necesarios para la característica y realiza commits en la rama de característica (feature). Por ejemplo:
 
     ```console
