@@ -112,8 +112,14 @@ Pero en lugar de ramificarse de [master], las ramas `feature` utilizan la rama `
 
 Este código creará una rama como: `feature/login`
 
-### Desarrolla tu código
+---
+
+### Em momento de Codificar 🤓
 > Sigue trabajando como normalmente lo harias, aquí es momento de implementar todo tu código
+
+---
+
+### Al finalizar el desarrollo tu código
 
 2. PASO 2: Guardar los Cambios y Publicarlos en el repositorio.
 Antes de finalizar la rama de característica, asegúrate de que estás en la rama de característica que deseas finalizar. Puedes verificarlo con el siguiente comando:
